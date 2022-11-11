@@ -270,13 +270,13 @@
     </footer>
   </div>
   <script>
-    const BURGER = document.querySelector(".burger");
+    const Burger = document.querySelector(".burger");
     const BODY_TAG = document.querySelector("body");
     const CLASS_OVERFLOW = "overflow-hidden";
     const NAV = document.querySelector(".global-nav");
     const PAGE_LINKS = document.querySelectorAll(".page-header__link");
 
-    BURGER.addEventListener("click", () => {
+    Burger.addEventListener("click", () => {
       NAV.classList.toggle("global-nav_opened");
       toggleOverflow();
     });
